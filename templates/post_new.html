@@ -1,0 +1,9 @@
+{% extends "base.html" %}
+
+{% block content %}
+    <h1> New Post </h1>
+    <form action="" method="post">{% csrf_token %}   <!-- csrf_token is for evade sql hacking -->
+        {{ form.as_p }} <!-- as_p means display as paragraph -->
+        <input type="submit" value="Save"/> <!-- ctrl-space to display list of types -->
+    </form>
+{% endblock content %}

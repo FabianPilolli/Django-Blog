@@ -1,0 +1,5 @@
+source code	/home/FabianPilolli/Django-Blog
+manage		/home/FabianPilolli/Django-Blog/manage.py
+name		/home/FabianPilolli/Django-Blog/django_project
+settings	/home/FabianPilolli/Django-Blog/django_project/settings.py
+venv		/home/FabianPilolli/.virtualenvs/django-blog-venv
