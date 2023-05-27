@@ -1,9 +1,28 @@
-header h1 a {
-    color:blue;
-    font-family: 'Vina Sans', cursive;
+body{
+    font-family: 'Roboto', sans-serif;
 }
 
-body{
-    color:blueviolet;
-    font-family: 'Roboto', sans-serif;
+header {
+    border-bottom: 1px solid #999;
+    margin-bottom: 2rem;
+    display: flex;
+}
+
+header h1 a {
+    color: red;
+    text-decoration: none;
+}
+
+.nav-left{
+    margin-right: auto;
+    padding-bottom: 1rem;
+}
+
+.nav-right{
+    display: flex;
+    justify-content: space-between;
+    padding-top: 2rem;
+}
+.nav-right p:only-child(2) {
+    margin-left: 10px;
 }
